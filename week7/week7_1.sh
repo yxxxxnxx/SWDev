@@ -3,6 +3,7 @@ cd git_project
 git init
 git config --global user.name yourname
 git config --global user.email youremail
+git config --global color.ui false
 echo hello world > test.sh
 git add test.sh
 git commit -m "Initial commit"
