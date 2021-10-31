@@ -1,5 +1,5 @@
-mkdir week8
-cd week8
+mkdir git_project
+cd git_project
 git init
 git config --global user.name "EON LEE"
 git config --global user.email smurfy33.skku@gmail.com
