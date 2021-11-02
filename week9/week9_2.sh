@@ -16,19 +16,19 @@ git commit -m "work 1"
 
 
 git branch company_1
-#vim work.txt
+#vim work.txt - 작성
 git commit -am "master work 2"
 
 git checkout company_1
-#vim work.txt
+#vim work.txt - 작성
 git commit -am "company work 2"
 
 git checkout master
 
 git merge company_1 --no-edit
 
-#conflict 발생-수정
-#vim work.txt
+#conflict 발생 - 수정필요
+#vim work.txt - 수정
 
 git add work.txt
 git commit -m "merge company_1 branch"
